@@ -2,19 +2,19 @@ export default [
     {
         id:1,
         name:'programming',
-        icon:'',
+        icon:'/coding.png',
         prompt:''
     },
     {
         id:2,
         name:'Health',
-        icon:'',
+        icon:'/lotus.png',
         promp:''
     },
     {
         id:3,
         name:'creative',
-        icon:'',
+        icon:'creative.png',
         promp:''
     },
 ]
