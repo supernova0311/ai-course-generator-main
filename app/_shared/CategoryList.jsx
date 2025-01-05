@@ -8,13 +8,14 @@ export default [
     {
         id:2,
         name:'Health',
-        icon:'/lotus.png',
+        icon:'/lotus1.webp',
         promp:''
     },
     {
         id:3,
         name:'creative',
-        icon:'creative.png',
+        icon:'coding1.png',
         promp:''
     },
 ]
+//hello
