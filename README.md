@@ -95,67 +95,9 @@ An AI-powered platform for creating and managing online courses. Built using **N
 
 ## Live Demo :globe_with_meridians:
 
-<a href="https://mrpankajpandey-ai-course.vercel.app/">
+<a href="https://ai-course-generator-main.vercel.app/">
     <img height="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chrome/chrome-original.svg" />
 </a>
 
-## Contribution Guidelines :raising_hand: 
-
-We welcome contributions to improve the platform. Here are the steps to get started:
-
-### 1. Fork the Repository
-
-Click the "Fork" button at the top right of the repository page to create a copy of the repository in your GitHub account.
-
-### 2. Clone Your Fork
-
-Clone your forked repository to your local machine using the following command:
-
-```bash
-git clone https://github.com/<your-username>/ai-course-generator.git
-```
-
-### 3. Create a Branch
-
-Create a new branch for your feature or bug fix:
-
-```bash
-git checkout -b feature-or-bugfix-name
-```
-
-### 4. Make Changes
-
-Make your changes to the codebase. Ensure your code follows the project's coding standards and passes all tests.
-
-### 5. Commit Your Changes
-
-Commit your changes with a descriptive commit message:
-
-```bash
-git add .
-git commit -m "Description of the feature or fix"
-```
-
-### 6. Push to Your Fork
-
-Push your changes to your forked repository:
-
-```bash
-git push origin feature-or-bugfix-name
-```
-
-### 7. Create a Pull Request
-
-Go to the original repository and click the "New Pull Request" button. Select your branch and submit the pull request for review.
-
-### 8. Review Process
-
-Your pull request will be reviewed by the maintainers. Please be responsive to any feedback or requests for changes.
-
-### 9. Merge
-
-Once approved, your pull request will be merged into the main branch. Congratulations on your contribution!
-
->[!TIP]
->**Follow [CONTRIBUTING.md](https://github.com/mrpankajpandey/ai-course-generator/blob/main/CONTRIBUTING.md) for detailed guidelines**
+## THANK YOU FOR WATCHING!!
 
