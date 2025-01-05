@@ -23,7 +23,7 @@ const SelectCategory = () => {
             }`}
             onClick={() => handleCategoryChange(item.name)}
           >
-            <Image rel={"category"} width={50} height={50} />
+            <Image src={item.icon} width={50} height={50} />
             <h2>{item.name}</h2>
           </div>
         ))}
