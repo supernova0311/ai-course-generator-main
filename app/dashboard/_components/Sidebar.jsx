@@ -42,12 +42,12 @@ const Sidebar = () => {
       icon: <HiOutlineSquare3Stack3D />,
       path: "/dashboard/explore",
     },
-    {
-      id: 3,
-      name: "Upgrade",
-      icon: <HiOutlineShieldCheck />,
-      path: "/dashboard/upgrade",
-    },
+    // {
+    //   id: 3,
+    //   name: "Upgrade",
+    //   icon: <HiOutlineShieldCheck />,
+    //   path: "/dashboard/upgrade",
+    // },
     ...(isAdmin
       ? [
           {
@@ -59,13 +59,13 @@ const Sidebar = () => {
         ]
       : []),
 
-    {
-      id: 4,
-      name: "Logout",
-      icon: <CiPower />,
-      path: "/dashboard/logout",
-      isLogout: true,
-    },
+    // {
+    //   id: 4,
+    //   name: "Logout",
+    //   icon: <CiPower />,
+    //   path: "/dashboard/logout",
+    //   isLogout: true,
+    // },
   ];
 
 
