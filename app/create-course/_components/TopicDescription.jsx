@@ -5,6 +5,10 @@ import React, { useContext, useState } from "react";
 
 // List of topic suggestions
 const TOPIC_SUGGESTIONS = [
+  "MAthematics",
+  "Science",
+  "Physics",
+  "Chemistry",
   "Python Programming",
   "Web Development",
   "Data Science",
