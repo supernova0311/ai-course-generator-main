@@ -23,8 +23,58 @@ const TOPIC_SUGGESTIONS = [
 
 // List of blocked words (partial list - you should expand this)
 const BLOCKED_WORDS = [
-  "sex", "porn", "fuck", "shit", "asshole", "bastard", "bitch", "cunt", 
-  "dick", "nigger", "whore", "rape", "kill", "murder", "terrorist"
+  // Explicit sexual terms
+  "sex", "sexual", "sexy", "horny", "porn", "porno", "pornography", "xxx", 
+  "nude", "nudity", "naked", "fuck", "fucking", "fucker", "motherfucker",
+  "cock", "dick", "penis", "pussy", "vagina", "clit", "clitoris", "cunt",
+  "blowjob", "handjob", "bj", "hj", "cum", "sperm", "semen", "orgasm",
+  "masturbate", "masturbation", "jerking", "jerkoff", "jerk off",
+  "erotic", "erotica", "bdsm", "fetish", "incest", "rape", "rapist",
+  "molest", "molestation", "pedo", "pedophile", "paedo", "childporn",
+  "whore", "prostitute", "hooker", "escort", "callgirl", "sexting",
+  "sext", "hardcore", "softcore", "anal", "oral", "boobs", "breasts",
+  "tits", "titties", "nipples", "nipple", "ass", "arse", "butt", "buttocks",
+  "anus", "dildo", "vibrator", "condom", "viagra", "cialis", "contraceptive",
+  
+  // Slang/vulgar terms
+  "slut", "slutty", "hoe", "thot", "milf", "dilf", "cougar", "sugar daddy",
+  "sugar baby", "gold digger", "goldigger", "booty", "booty call",
+  "one night stand", "orgy", "swinger", "swinging", "gangbang",
+  "threesome", "foursome", "groupsex", "cybersex", "camgirl", "camboy",
+  "stripper", "stripclub", "peepshow", "hooter", "hooter", "hotgirl",
+  "hotwife", "cuckold", "cuck", "shemale", "tranny", "transsexual",
+  "lesbian", "gay", "homosexual", "bisexual", "queer", "faggot", "dyke",
+  
+  // Violence/abusive terms
+  "rape", "rapist", "molest", "molestation", "pedo", "pedophile",
+  "incest", "bestiality", "zoophilia", "necrophilia", "voyeur",
+  "exhibitionist", "flasher", "stalker", "creep", "creepy",
+  
+  // Adult industry terms
+  "onlyfans", "fansly", "patreon", "webcam", "camming", "pornhub",
+  "xvideos", "xhamster", "redtube", "youporn", "brazzers", "bangbros",
+  "naughty america", "reality kings", "twistys", "digital playground",
+  
+  // Common misspellings/alternatives
+  "secks", "sexyy", "hornyy", "p0rn", "pr0n", "fuk", "phuck", "dikk",
+  "dic", "dicc", "pusy", "pussie", "boobz", "tittys", "azz", "as$",
+  "a$$", "asshole", "arsehole", "butthole", "b-hole", "vajayjay",
+  "va-j-j", "coochie", "hooters", "jugs", "knockers", "melons",
+  
+  // Adult acts
+  "doggy style", "missionary", "cowgirl", "reverse cowgirl", "69",
+  "sixty nine", "blow job", "hand job", "titjob", "footjob",
+  "facial", "creampie", "deep throat", "dp", "double penetration",
+  "anal sex", "oral sex", "vaginal sex", "foreplay", "fingering",
+  "cunnilingus", "fellatio", "rimjob", "rimming", "pegging",
+  "fisting", "scissoring", "tribbing", "queening", "facesitting",
+  
+  // Fetishes
+  "bdsm", "bondage", "domination", "submission", "sadism", "masochism",
+  "s&m", "sado", "dom", "sub", "master", "slave", "daddy", "little",
+  "ageplay", "abdl", "ddlg", "petplay", "puppyplay", "ponyplay",
+  "furries", "yiff", "vore", "watersports", "scat", "coprophilia",
+  "fart", "farting", "armpit", "armpits", "feet", "foot", "toes"
 ];
 
 const TopicDescription = () => {
